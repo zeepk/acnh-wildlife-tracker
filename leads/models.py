@@ -9,3 +9,10 @@ class Lead(models.Model):
     owner = models.ForeignKey(
         User, related_name="leads", on_delete=models.CASCADE, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+class Progress(models.Model):
+    owner = models.ForeignKey(
+        User, related_name="progress", on_delete=models.CASCADE, null=True)
+    fish = models.CharField(max_length=100, default="00000000000000000000000000000000000000000000000000000000000000000000000000000000")
+    bugs = models.CharField(max_length=100, default="00000000000000000000000000000000000000000000000000000000000000000000000000000000")
+    paintings = models.CharField(max_length=100, default="00000000000000000000000000000000000000000000000000000000000000000000000000000000")
