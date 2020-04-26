@@ -2,6 +2,7 @@
 	"bugs": [
 		{
 			"id": "1",
+			"caught": "",
 			"name": "Common Butterfly",
 			"rarity": "1",
 			"price": "160",
@@ -22,6 +23,7 @@
 		},
 		{
 			"id": "2",
+			"caught": "",
 			"name": "Yellow Butterfly",
 			"rarity": "1",
 			"price": "160",
@@ -42,6 +44,7 @@
 		},
 		{
 			"id": "3",
+			"caught": "",
 			"name": "Tiger Butterfly",
 			"rarity": "1",
 			"price": "240",
@@ -62,6 +65,7 @@
 		},
 		{
 			"id": "4",
+			"caught": "",
 			"name": "Peacock Butterfly",
 			"rarity": "1",
 			"price": "2500",
@@ -82,6 +86,7 @@
 		},
 		{
 			"id": "5",
+			"caught": "",
 			"name": "Common Bluebottle",
 			"rarity": "1",
 			"price": "300",
@@ -102,6 +107,7 @@
 		},
 		{
 			"id": "6",
+			"caught": "",
 			"name": "Paper Kit Butterfly",
 			"rarity": "1",
 			"price": "1000",
@@ -122,6 +128,7 @@
 		},
 		{
 			"id": "7",
+			"caught": "",
 			"name": "Great Purple Emperor",
 			"rarity": "1",
 			"price": "3000",
@@ -142,6 +149,7 @@
 		},
 		{
 			"id": "8",
+			"caught": "",
 			"name": "Monarch Butterfly",
 			"rarity": "1",
 			"price": "140",
@@ -162,6 +170,7 @@
 		},
 		{
 			"id": "9",
+			"caught": "",
 			"name": "Emperor Butterfly",
 			"rarity": "2",
 			"price": "4000",
@@ -182,6 +191,7 @@
 		},
 		{
 			"id": "10",
+			"caught": "",
 			"name": "Agrias Butterfly",
 			"rarity": "1",
 			"price": "3000",
@@ -202,6 +212,7 @@
 		},
 		{
 			"id": "11",
+			"caught": "",
 			"name": "Rajah Brooke's Birdwing",
 			"rarity": "1",
 			"price": "2500",
@@ -222,6 +233,7 @@
 		},
 		{
 			"id": "12",
+			"caught": "",
 			"name": "Queen Alexandra's Birdwing",
 			"rarity": "3",
 			"price": "4000",
@@ -242,6 +254,7 @@
 		},
 		{
 			"id": "13",
+			"caught": "",
 			"name": "Moth",
 			"rarity": "1",
 			"price": "130",
@@ -262,6 +275,7 @@
 		},
 		{
 			"id": "14",
+			"caught": "",
 			"name": "Atlas Moth",
 			"rarity": "2",
 			"price": "3000",
@@ -282,6 +296,7 @@
 		},
 		{
 			"id": "15",
+			"caught": "",
 			"name": "Madagascan Sunset Moth",
 			"rarity": "2",
 			"price": "2500",
@@ -302,6 +317,7 @@
 		},
 		{
 			"id": "16",
+			"caught": "",
 			"name": "Long Locust",
 			"rarity": "1",
 			"price": "200",
@@ -322,6 +338,7 @@
 		},
 		{
 			"id": "17",
+			"caught": "",
 			"name": "Migratory Locust",
 			"rarity": "2",
 			"price": "600",
@@ -342,6 +359,7 @@
 		},
 		{
 			"id": "18",
+			"caught": "",
 			"name": "Rice Grasshopper",
 			"rarity": "1",
 			"price": "400",
@@ -362,6 +380,7 @@
 		},
 		{
 			"id": "19",
+			"caught": "",
 			"name": "Grasshopper",
 			"rarity": "1",
 			"price": "160",
@@ -382,6 +401,7 @@
 		},
 		{
 			"id": "20",
+			"caught": "",
 			"name": "Cricket",
 			"rarity": "1",
 			"price": "130",
@@ -402,6 +422,7 @@
 		},
 		{
 			"id": "21",
+			"caught": "",
 			"name": "Bell Cricket",
 			"rarity": "1",
 			"price": "430",
@@ -422,6 +443,7 @@
 		},
 		{
 			"id": "22",
+			"caught": "",
 			"name": "Mantis",
 			"rarity": "1",
 			"price": "430",
@@ -442,6 +464,7 @@
 		},
 		{
 			"id": "23",
+			"caught": "",
 			"name": "Orchid Mantis",
 			"rarity": "1",
 			"price": "2400",
@@ -462,6 +485,7 @@
 		},
 		{
 			"id": "24",
+			"caught": "",
 			"name": "Honey Bee",
 			"rarity": "1",
 			"price": "200",
@@ -482,6 +506,7 @@
 		},
 		{
 			"id": "25",
+			"caught": "",
 			"name": "Wasp",
 			"rarity": "0",
 			"price": "2500",
@@ -502,6 +527,7 @@
 		},
 		{
 			"id": "26",
+			"caught": "",
 			"name": "Brown Cicada",
 			"rarity": "1",
 			"price": "250",
@@ -522,6 +548,7 @@
 		},
 		{
 			"id": "27",
+			"caught": "",
 			"name": "Robust Cicada",
 			"rarity": "1",
 			"price": "300",
@@ -542,6 +569,7 @@
 		},
 		{
 			"id": "28",
+			"caught": "",
 			"name": "Giant Cicada",
 			"rarity": "1",
 			"price": "500",
@@ -562,6 +590,7 @@
 		},
 		{
 			"id": "29",
+			"caught": "",
 			"name": "Walker Cicada",
 			"rarity": "1",
 			"price": "400",
@@ -582,6 +611,7 @@
 		},
 		{
 			"id": "30",
+			"caught": "",
 			"name": "Evening Cicada",
 			"rarity": "1",
 			"price": "550",
@@ -602,6 +632,7 @@
 		},
 		{
 			"id": "31",
+			"caught": "",
 			"name": "Cicada Shell",
 			"rarity": "1",
 			"price": "10",
@@ -622,6 +653,7 @@
 		},
 		{
 			"id": "32",
+			"caught": "",
 			"name": "Red Dragonfly",
 			"rarity": "1",
 			"price": "180",
@@ -642,6 +674,7 @@
 		},
 		{
 			"id": "33",
+			"caught": "",
 			"name": "Darner Dragonfly",
 			"rarity": "1",
 			"price": "230",
@@ -662,6 +695,7 @@
 		},
 		{
 			"id": "34",
+			"caught": "",
 			"name": "Banded Dragonfly",
 			"rarity": "2",
 			"price": "4500",
@@ -682,6 +716,7 @@
 		},
 		{
 			"id": "35",
+			"caught": "",
 			"name": "Damselfly",
 			"rarity": "1",
 			"price": "500",
@@ -702,6 +737,7 @@
 		},
 		{
 			"id": "36",
+			"caught": "",
 			"name": "Firefly",
 			"rarity": "1",
 			"price": "300",
@@ -722,6 +758,7 @@
 		},
 		{
 			"id": "37",
+			"caught": "",
 			"name": "Mole Cricket",
 			"rarity": "3",
 			"price": "500",
@@ -742,6 +779,7 @@
 		},
 		{
 			"id": "38",
+			"caught": "",
 			"name": "Pondskater",
 			"rarity": "1",
 			"price": "130",
@@ -762,6 +800,7 @@
 		},
 		{
 			"id": "39",
+			"caught": "",
 			"name": "Diving Beetle",
 			"rarity": "1",
 			"price": "800",
@@ -782,6 +821,7 @@
 		},
 		{
 			"id": "40",
+			"caught": "",
 			"name": "Giant Water Bug",
 			"rarity": "1",
 			"price": "2000",
@@ -802,6 +842,7 @@
 		},
 		{
 			"id": "41",
+			"caught": "",
 			"name": "Stinkbug",
 			"rarity": "1",
 			"price": "120",
@@ -822,6 +863,7 @@
 		},
 		{
 			"id": "42",
+			"caught": "",
 			"name": "Man-Faced Stink Bug",
 			"rarity": "1",
 			"price": "1000",
@@ -842,6 +884,7 @@
 		},
 		{
 			"id": "43",
+			"caught": "",
 			"name": "Ladybug",
 			"rarity": "1",
 			"price": "200",
@@ -862,6 +905,7 @@
 		},
 		{
 			"id": "44",
+			"caught": "",
 			"name": "Tiger Beetle",
 			"rarity": "3",
 			"price": "1500",
@@ -882,6 +926,7 @@
 		},
 		{
 			"id": "45",
+			"caught": "",
 			"name": "Jewel Beetle",
 			"rarity": "1",
 			"price": "2400",
@@ -902,6 +947,7 @@
 		},
 		{
 			"id": "46",
+			"caught": "",
 			"name": "Violin Beetle",
 			"rarity": "1",
 			"price": "450",
@@ -922,6 +968,7 @@
 		},
 		{
 			"id": "47",
+			"caught": "",
 			"name": "Citrus Long-Horned Beetle",
 			"rarity": "1",
 			"price": "350",
@@ -942,6 +989,7 @@
 		},
 		{
 			"id": "48",
+			"caught": "",
 			"name": "Rosalia Batesi Beetle",
 			"rarity": "2",
 			"price": "3000",
@@ -962,6 +1010,7 @@
 		},
 		{
 			"id": "49",
+			"caught": "",
 			"name": "Blue Weevil Beetle",
 			"rarity": "3",
 			"price": "800",
@@ -982,6 +1031,7 @@
 		},
 		{
 			"id": "50",
+			"caught": "",
 			"name": "Dung Beetle",
 			"rarity": "2",
 			"price": "3000",
@@ -1002,6 +1052,7 @@
 		},
 		{
 			"id": "51",
+			"caught": "",
 			"name": "Earth-Boring Dung Beetle",
 			"rarity": "1",
 			"price": "300",
@@ -1022,6 +1073,7 @@
 		},
 		{
 			"id": "52",
+			"caught": "",
 			"name": "Scarab Beetle",
 			"rarity": "3",
 			"price": "10000",
@@ -1042,6 +1094,7 @@
 		},
 		{
 			"id": "53",
+			"caught": "",
 			"name": "Drone Beetle",
 			"rarity": "1",
 			"price": "200",
@@ -1062,6 +1115,7 @@
 		},
 		{
 			"id": "54",
+			"caught": "",
 			"name": "Goliath Beetle",
 			"rarity": "3",
 			"price": "8000",
@@ -1082,6 +1136,7 @@
 		},
 		{
 			"id": "55",
+			"caught": "",
 			"name": "Saw Stag",
 			"rarity": "2",
 			"price": "2000",
@@ -1102,6 +1157,7 @@
 		},
 		{
 			"id": "56",
+			"caught": "",
 			"name": "Miyama Stag",
 			"rarity": "1",
 			"price": "1000",
@@ -1122,6 +1178,7 @@
 		},
 		{
 			"id": "57",
+			"caught": "",
 			"name": "Giant Stag",
 			"rarity": "3",
 			"price": "10000",
@@ -1142,6 +1199,7 @@
 		},
 		{
 			"id": "58",
+			"caught": "",
 			"name": "Rainbow Stag",
 			"rarity": "3",
 			"price": "6000",
@@ -1162,6 +1220,7 @@
 		},
 		{
 			"id": "59",
+			"caught": "",
 			"name": "Cyclommatus Stag",
 			"rarity": "4",
 			"price": "8000",
@@ -1182,6 +1241,7 @@
 		},
 		{
 			"id": "60",
+			"caught": "",
 			"name": "Golden Stag",
 			"rarity": "5",
 			"price": "12000",
@@ -1202,6 +1262,7 @@
 		},
 		{
 			"id": "61",
+			"caught": "",
 			"name": "Giraffe Stag",
 			"rarity": "4",
 			"price": "12000",
@@ -1222,6 +1283,7 @@
 		},
 		{
 			"id": "62",
+			"caught": "",
 			"name": "Horned Dynastid",
 			"rarity": "1",
 			"price": "1350",
@@ -1242,6 +1304,7 @@
 		},
 		{
 			"id": "63",
+			"caught": "",
 			"name": "Horned Atlas",
 			"rarity": "4",
 			"price": "8000",
@@ -1262,6 +1325,7 @@
 		},
 		{
 			"id": "64",
+			"caught": "",
 			"name": "Horned Elephant",
 			"rarity": "4",
 			"price": "8000",
@@ -1282,6 +1346,7 @@
 		},
 		{
 			"id": "65",
+			"caught": "",
 			"name": "Horned Hercules",
 			"rarity": "5",
 			"price": "12000",
@@ -1302,6 +1367,7 @@
 		},
 		{
 			"id": "66",
+			"caught": "",
 			"name": "Walking Stick",
 			"rarity": "2",
 			"price": "600",
@@ -1322,6 +1388,7 @@
 		},
 		{
 			"id": "67",
+			"caught": "",
 			"name": "Walking Leaf",
 			"rarity": "1",
 			"price": "600",
@@ -1342,6 +1409,7 @@
 		},
 		{
 			"id": "68",
+			"caught": "",
 			"name": "Bagworm",
 			"rarity": "1",
 			"price": "600",
@@ -1362,6 +1430,7 @@
 		},
 		{
 			"id": "69",
+			"caught": "",
 			"name": "Ant",
 			"rarity": "1",
 			"price": "80",
@@ -1382,6 +1451,7 @@
 		},
 		{
 			"id": "70",
+			"caught": "",
 			"name": "Hermit Crab",
 			"rarity": "1",
 			"price": "1000",
@@ -1402,6 +1472,7 @@
 		},
 		{
 			"id": "71",
+			"caught": "",
 			"name": "Wharf Roach",
 			"rarity": "1",
 			"price": "200",
@@ -1422,6 +1493,7 @@
 		},
 		{
 			"id": "72",
+			"caught": "",
 			"name": "Fly",
 			"rarity": "5",
 			"price": "60",
@@ -1442,6 +1514,7 @@
 		},
 		{
 			"id": "73",
+			"caught": "",
 			"name": "Mosquito",
 			"rarity": "1",
 			"price": "130",
@@ -1462,6 +1535,7 @@
 		},
 		{
 			"id": "74",
+			"caught": "",
 			"name": "Flea",
 			"rarity": "2",
 			"price": "70",
@@ -1482,6 +1556,7 @@
 		},
 		{
 			"id": "75",
+			"caught": "",
 			"name": "Snail",
 			"rarity": "1",
 			"price": "250",
@@ -1502,6 +1577,7 @@
 		},
 		{
 			"id": "76",
+			"caught": "",
 			"name": "Pill Bug",
 			"rarity": "1",
 			"price": "250",
@@ -1522,6 +1598,7 @@
 		},
 		{
 			"id": "77",
+			"caught": "",
 			"name": "Centipede",
 			"rarity": "1",
 			"price": "300",
@@ -1542,6 +1619,7 @@
 		},
 		{
 			"id": "78",
+			"caught": "",
 			"name": "Spider",
 			"rarity": "1",
 			"price": "600",
@@ -1562,6 +1640,7 @@
 		},
 		{
 			"id": "79",
+			"caught": "",
 			"name": "Tarantula",
 			"rarity": "5",
 			"price": "8000",
@@ -1582,6 +1661,7 @@
 		},
 		{
 			"id": "80",
+			"caught": "",
 			"name": "Scorpion",
 			"rarity": "5",
 			"price": "8000",

@@ -11,7 +11,6 @@ import {
 	LOGOUT_SUCCESS,
 	REGISTER_FAIL,
 	REGISTER_SUCCESS,
-	ADD_PROGRESS,
 } from './types';
 
 // check token and load user
@@ -22,6 +21,7 @@ export const loadUser = () => (dispatch, getState) => {
 	axios
 		.get('/api/auth/user', tokenConfig(getState))
 		.then((res) => {
+			console.log(res.data);
 			dispatch({
 				type: USER_LOADED,
 				payload: res.data,

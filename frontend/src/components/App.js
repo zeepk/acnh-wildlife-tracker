@@ -34,6 +34,7 @@ const alertOptions = {
 
 class App extends Component {
 	componentDidMount() {
+		console.log('loading user from App.js....');
 		store.dispatch(loadUser());
 	}
 
@@ -47,7 +48,7 @@ class App extends Component {
 							<Alerts />
 							<div className="">
 								<Switch>
-									<PrivateRoute exact path="/" component={Dashboard} />
+									<Route exact path="/" component={Dashboard} />
 									<Route exact path="/register" component={Register} />
 									<Route exact path="/login" component={Login} />
 								</Switch>

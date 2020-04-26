@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Progress from './Leads';
+import Progress from './Progress';
 
 export default function Dashboard() {
 	return (
