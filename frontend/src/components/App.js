@@ -4,7 +4,7 @@ import {
 	HashRouter as Router,
 	Route,
 	Switch,
-	Redirect
+	Redirect,
 } from 'react-router-dom';
 
 import { Provider as AlertProvider } from 'react-alert';
@@ -21,11 +21,15 @@ import { Provider } from 'react-redux';
 import store from '../store';
 import { loadUser } from '../actions/auth';
 
+import 'primereact/resources/themes/Rhea/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
 // Alert options
 
 const alertOptions = {
 	timeout: 3000,
-	position: 'top center'
+	position: 'top center',
 };
 
 class App extends Component {
@@ -41,7 +45,7 @@ class App extends Component {
 						<Fragment>
 							<Header />
 							<Alerts />
-							<div className="container">
+							<div className="">
 								<Switch>
 									<PrivateRoute exact path="/" component={Dashboard} />
 									<Route exact path="/register" component={Register} />
