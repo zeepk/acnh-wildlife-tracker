@@ -21,7 +21,7 @@ import { Provider } from 'react-redux';
 import store from '../store';
 import { loadUser } from '../actions/auth';
 
-import 'primereact/resources/themes/Rhea/theme.css';
+import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 

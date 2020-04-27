@@ -1,7 +1,7 @@
 {
 	"bugs": [
 		{
-			"id": "1",
+			"id": 1,
 			"caught": "",
 			"name": "Common Butterfly",
 			"rarity": "1",
@@ -22,7 +22,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "2",
+			"id": 2,
 			"caught": "",
 			"name": "Yellow Butterfly",
 			"rarity": "1",
@@ -43,7 +43,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "3",
+			"id": 3,
 			"caught": "",
 			"name": "Tiger Butterfly",
 			"rarity": "1",
@@ -64,7 +64,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "4",
+			"id": 4,
 			"caught": "",
 			"name": "Peacock Butterfly",
 			"rarity": "1",
@@ -85,7 +85,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "5",
+			"id": 5,
 			"caught": "",
 			"name": "Common Bluebottle",
 			"rarity": "1",
@@ -106,7 +106,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "6",
+			"id": 6,
 			"caught": "",
 			"name": "Paper Kit Butterfly",
 			"rarity": "1",
@@ -127,7 +127,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "7",
+			"id": 7,
 			"caught": "",
 			"name": "Great Purple Emperor",
 			"rarity": "1",
@@ -148,7 +148,7 @@
 			"time": "4a - 7p"
 		},
 		{
-			"id": "8",
+			"id": 8,
 			"caught": "",
 			"name": "Monarch Butterfly",
 			"rarity": "1",
@@ -169,7 +169,7 @@
 			"time": "4a - 3p"
 		},
 		{
-			"id": "9",
+			"id": 9,
 			"caught": "",
 			"name": "Emperor Butterfly",
 			"rarity": "2",
@@ -190,7 +190,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "10",
+			"id": 10,
 			"caught": "",
 			"name": "Agrias Butterfly",
 			"rarity": "1",
@@ -211,7 +211,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "11",
+			"id": 11,
 			"caught": "",
 			"name": "Rajah Brooke's Birdwing",
 			"rarity": "1",
@@ -232,7 +232,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "12",
+			"id": 12,
 			"caught": "",
 			"name": "Queen Alexandra's Birdwing",
 			"rarity": "3",
@@ -253,7 +253,7 @@
 			"time": "8a - 4p"
 		},
 		{
-			"id": "13",
+			"id": 13,
 			"caught": "",
 			"name": "Moth",
 			"rarity": "1",
@@ -274,7 +274,7 @@
 			"time": "7p - 4a"
 		},
 		{
-			"id": "14",
+			"id": 14,
 			"caught": "",
 			"name": "Atlas Moth",
 			"rarity": "2",
@@ -295,7 +295,7 @@
 			"time": "7p - 4a"
 		},
 		{
-			"id": "15",
+			"id": 15,
 			"caught": "",
 			"name": "Madagascan Sunset Moth",
 			"rarity": "2",
@@ -316,7 +316,7 @@
 			"time": "8a - 4p"
 		},
 		{
-			"id": "16",
+			"id": 16,
 			"caught": "",
 			"name": "Long Locust",
 			"rarity": "1",
@@ -337,7 +337,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "17",
+			"id": 17,
 			"caught": "",
 			"name": "Migratory Locust",
 			"rarity": "2",
@@ -358,7 +358,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "18",
+			"id": 18,
 			"caught": "",
 			"name": "Rice Grasshopper",
 			"rarity": "1",
@@ -379,7 +379,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "19",
+			"id": 19,
 			"caught": "",
 			"name": "Grasshopper",
 			"rarity": "1",
@@ -400,7 +400,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "20",
+			"id": 20,
 			"caught": "",
 			"name": "Cricket",
 			"rarity": "1",
@@ -421,7 +421,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "21",
+			"id": 21,
 			"caught": "",
 			"name": "Bell Cricket",
 			"rarity": "1",
@@ -442,7 +442,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "22",
+			"id": 22,
 			"caught": "",
 			"name": "Mantis",
 			"rarity": "1",
@@ -463,7 +463,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "23",
+			"id": 23,
 			"caught": "",
 			"name": "Orchid Mantis",
 			"rarity": "1",
@@ -484,7 +484,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "24",
+			"id": 24,
 			"caught": "",
 			"name": "Honey Bee",
 			"rarity": "1",
@@ -505,7 +505,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "25",
+			"id": 25,
 			"caught": "",
 			"name": "Wasp",
 			"rarity": "0",
@@ -526,7 +526,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "26",
+			"id": 26,
 			"caught": "",
 			"name": "Brown Cicada",
 			"rarity": "1",
@@ -547,7 +547,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "27",
+			"id": 27,
 			"caught": "",
 			"name": "Robust Cicada",
 			"rarity": "1",
@@ -568,7 +568,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "28",
+			"id": 28,
 			"caught": "",
 			"name": "Giant Cicada",
 			"rarity": "1",
@@ -589,7 +589,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "29",
+			"id": 29,
 			"caught": "",
 			"name": "Walker Cicada",
 			"rarity": "1",
@@ -610,7 +610,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "30",
+			"id": 30,
 			"caught": "",
 			"name": "Evening Cicada",
 			"rarity": "1",
@@ -631,7 +631,7 @@
 			"time": "4a - 8a // 4p - 7p"
 		},
 		{
-			"id": "31",
+			"id": 31,
 			"caught": "",
 			"name": "Cicada Shell",
 			"rarity": "1",
@@ -652,7 +652,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "32",
+			"id": 32,
 			"caught": "",
 			"name": "Red Dragonfly",
 			"rarity": "1",
@@ -673,7 +673,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "33",
+			"id": 33,
 			"caught": "",
 			"name": "Darner Dragonfly",
 			"rarity": "1",
@@ -694,7 +694,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "34",
+			"id": 34,
 			"caught": "",
 			"name": "Banded Dragonfly",
 			"rarity": "2",
@@ -715,7 +715,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "35",
+			"id": 35,
 			"caught": "",
 			"name": "Damselfly",
 			"rarity": "1",
@@ -736,7 +736,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "36",
+			"id": 36,
 			"caught": "",
 			"name": "Firefly",
 			"rarity": "1",
@@ -757,7 +757,7 @@
 			"time": "7p - 4a"
 		},
 		{
-			"id": "37",
+			"id": 37,
 			"caught": "",
 			"name": "Mole Cricket",
 			"rarity": "3",
@@ -778,7 +778,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "38",
+			"id": 38,
 			"caught": "",
 			"name": "Pondskater",
 			"rarity": "1",
@@ -799,7 +799,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "39",
+			"id": 39,
 			"caught": "",
 			"name": "Diving Beetle",
 			"rarity": "1",
@@ -820,7 +820,7 @@
 			"time": "8a - 7p"
 		},
 		{
-			"id": "40",
+			"id": 40,
 			"caught": "",
 			"name": "Giant Water Bug",
 			"rarity": "1",
@@ -841,7 +841,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "41",
+			"id": 41,
 			"caught": "",
 			"name": "Stinkbug",
 			"rarity": "1",
@@ -862,7 +862,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "42",
+			"id": 42,
 			"caught": "",
 			"name": "Man-Faced Stink Bug",
 			"rarity": "1",
@@ -883,7 +883,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "43",
+			"id": 43,
 			"caught": "",
 			"name": "Ladybug",
 			"rarity": "1",
@@ -904,7 +904,7 @@
 			"time": "8a - 5p"
 		},
 		{
-			"id": "44",
+			"id": 44,
 			"caught": "",
 			"name": "Tiger Beetle",
 			"rarity": "3",
@@ -925,7 +925,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "45",
+			"id": 45,
 			"caught": "",
 			"name": "Jewel Beetle",
 			"rarity": "1",
@@ -946,7 +946,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "46",
+			"id": 46,
 			"caught": "",
 			"name": "Violin Beetle",
 			"rarity": "1",
@@ -967,7 +967,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "47",
+			"id": 47,
 			"caught": "",
 			"name": "Citrus Long-Horned Beetle",
 			"rarity": "1",
@@ -988,7 +988,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "48",
+			"id": 48,
 			"caught": "",
 			"name": "Rosalia Batesi Beetle",
 			"rarity": "2",
@@ -1009,7 +1009,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "49",
+			"id": 49,
 			"caught": "",
 			"name": "Blue Weevil Beetle",
 			"rarity": "3",
@@ -1030,7 +1030,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "50",
+			"id": 50,
 			"caught": "",
 			"name": "Dung Beetle",
 			"rarity": "2",
@@ -1051,7 +1051,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "51",
+			"id": 51,
 			"caught": "",
 			"name": "Earth-Boring Dung Beetle",
 			"rarity": "1",
@@ -1072,7 +1072,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "52",
+			"id": 52,
 			"caught": "",
 			"name": "Scarab Beetle",
 			"rarity": "3",
@@ -1093,7 +1093,7 @@
 			"time": "11p - 8a"
 		},
 		{
-			"id": "53",
+			"id": 53,
 			"caught": "",
 			"name": "Drone Beetle",
 			"rarity": "1",
@@ -1114,7 +1114,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "54",
+			"id": 54,
 			"caught": "",
 			"name": "Goliath Beetle",
 			"rarity": "3",
@@ -1135,7 +1135,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "55",
+			"id": 55,
 			"caught": "",
 			"name": "Saw Stag",
 			"rarity": "2",
@@ -1156,7 +1156,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "56",
+			"id": 56,
 			"caught": "",
 			"name": "Miyama Stag",
 			"rarity": "1",
@@ -1177,7 +1177,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "57",
+			"id": 57,
 			"caught": "",
 			"name": "Giant Stag",
 			"rarity": "3",
@@ -1198,7 +1198,7 @@
 			"time": "11p - 8a"
 		},
 		{
-			"id": "58",
+			"id": 58,
 			"caught": "",
 			"name": "Rainbow Stag",
 			"rarity": "3",
@@ -1219,7 +1219,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "59",
+			"id": 59,
 			"caught": "",
 			"name": "Cyclommatus Stag",
 			"rarity": "4",
@@ -1240,7 +1240,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "60",
+			"id": 60,
 			"caught": "",
 			"name": "Golden Stag",
 			"rarity": "5",
@@ -1261,7 +1261,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "61",
+			"id": 61,
 			"caught": "",
 			"name": "Giraffe Stag",
 			"rarity": "4",
@@ -1282,7 +1282,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "62",
+			"id": 62,
 			"caught": "",
 			"name": "Horned Dynastid",
 			"rarity": "1",
@@ -1303,7 +1303,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "63",
+			"id": 63,
 			"caught": "",
 			"name": "Horned Atlas",
 			"rarity": "4",
@@ -1324,7 +1324,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "64",
+			"id": 64,
 			"caught": "",
 			"name": "Horned Elephant",
 			"rarity": "4",
@@ -1345,7 +1345,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "65",
+			"id": 65,
 			"caught": "",
 			"name": "Horned Hercules",
 			"rarity": "5",
@@ -1366,7 +1366,7 @@
 			"time": "5p - 8a"
 		},
 		{
-			"id": "66",
+			"id": 66,
 			"caught": "",
 			"name": "Walking Stick",
 			"rarity": "2",
@@ -1387,7 +1387,7 @@
 			"time": "4a - 8a // 5p - 7p"
 		},
 		{
-			"id": "67",
+			"id": 67,
 			"caught": "",
 			"name": "Walking Leaf",
 			"rarity": "1",
@@ -1408,7 +1408,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "68",
+			"id": 68,
 			"caught": "",
 			"name": "Bagworm",
 			"rarity": "1",
@@ -1429,7 +1429,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "69",
+			"id": 69,
 			"caught": "",
 			"name": "Ant",
 			"rarity": "1",
@@ -1450,7 +1450,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "70",
+			"id": 70,
 			"caught": "",
 			"name": "Hermit Crab",
 			"rarity": "1",
@@ -1471,7 +1471,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "71",
+			"id": 71,
 			"caught": "",
 			"name": "Wharf Roach",
 			"rarity": "1",
@@ -1492,7 +1492,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "72",
+			"id": 72,
 			"caught": "",
 			"name": "Fly",
 			"rarity": "5",
@@ -1513,7 +1513,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "73",
+			"id": 73,
 			"caught": "",
 			"name": "Mosquito",
 			"rarity": "1",
@@ -1534,7 +1534,7 @@
 			"time": "5p - 4a"
 		},
 		{
-			"id": "74",
+			"id": 74,
 			"caught": "",
 			"name": "Flea",
 			"rarity": "2",
@@ -1555,7 +1555,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "75",
+			"id": 75,
 			"caught": "",
 			"name": "Snail",
 			"rarity": "1",
@@ -1576,7 +1576,7 @@
 			"time": "Any time"
 		},
 		{
-			"id": "76",
+			"id": 76,
 			"caught": "",
 			"name": "Pill Bug",
 			"rarity": "1",
@@ -1597,7 +1597,7 @@
 			"time": "11p - 4p"
 		},
 		{
-			"id": "77",
+			"id": 77,
 			"caught": "",
 			"name": "Centipede",
 			"rarity": "1",
@@ -1618,7 +1618,7 @@
 			"time": "4p - 11p"
 		},
 		{
-			"id": "78",
+			"id": 78,
 			"caught": "",
 			"name": "Spider",
 			"rarity": "1",
@@ -1639,7 +1639,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "79",
+			"id": 79,
 			"caught": "",
 			"name": "Tarantula",
 			"rarity": "5",
@@ -1660,7 +1660,7 @@
 			"time": "7p - 8a"
 		},
 		{
-			"id": "80",
+			"id": 80,
 			"caught": "",
 			"name": "Scorpion",
 			"rarity": "5",

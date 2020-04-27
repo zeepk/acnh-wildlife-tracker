@@ -12,13 +12,10 @@ module.exports = {
 				test: /\.(s*)css$/,
 				use: ['style-loader', 'css-loader'],
 			},
+			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader' },
 			{
-				test: /\.(woff(2)?|ttf|eot|svg|png|jpe?g|gif)$/i,
-				use: [
-					{
-						loader: 'file-loader',
-					},
-				],
+				test: /\.(ttf|eot|svg|png|gif)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+				loader: 'url-loader',
 			},
 		],
 	},

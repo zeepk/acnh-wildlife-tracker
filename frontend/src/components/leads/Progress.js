@@ -5,6 +5,7 @@ import { getProgress } from '../../actions/progress';
 import { DataTable, Column } from 'primereact/datatable';
 import { bugs } from './bugs.json';
 import { CheckBox } from './CheckBox';
+import './Progress.css';
 
 export class Progress extends Component {
 	constructor(props) {
@@ -61,44 +62,124 @@ export class Progress extends Component {
 		}
 	}
 
-	actionTemplate(rowData, column) {
-		console.log(rowData.id);
+	checkBoxTemplate(rowData, column) {
+		// console.log(rowData.id);
 		return (
 			<div>
 				<CheckBox row_id={rowData.id} />
 			</div>
 		);
 	}
+	monthTemplate(rowData, column) {
+		// console.log(rowData[column.field]);
+		if (rowData[column.field] == '1') {
+			return (
+				<div style={{ textAlign: 'center' }}>
+					<i
+						className="pi pi-check"
+						style={{ color: 'green', fontSize: '2em' }}
+					></i>
+				</div>
+			);
+		} else {
+			return <div></div>;
+		}
+	}
 	render() {
-		console.log('PROGRESS');
-		console.log(this.props.progress);
+		// console.log('PROGRESS');
+		// console.log(this.props.progress);
 		return (
-			<div>
-				{/* <i className="pi pi-check" style={{ fontSize: '3em' }}></i> */}
-				<h2>Progress</h2>
+			<div className="chart-container">
+				{/* <h2>Progress</h2> */}
 				<DataTable value={bugs}>
 					<Column
-						body={this.actionTemplate}
-						header="Caught"
-						style={{ textAlign: 'center', width: '6em' }}
+						sortable={true}
+						field="name"
+						header="Name"
+						className="name-column"
 					/>
-					<Column field="name" header="Name" />
-					<Column field="rarity" header="Rarity" />
-					<Column field="price" header="Price" />
-					<Column field="location" header="Location" />
-					<Column field="january" header="January" />
-					<Column field="february" header="February" />
-					<Column field="march" header="March" />
-					<Column field="april" header="April" />
-					<Column field="may" header="May" />
-					<Column field="june" header="June" />
-					<Column field="july" header="July" />
-					<Column field="august" header="August" />
-					<Column field="september" header="September" />
-					<Column field="october" header="October" />
-					<Column field="november" header="November" />
-					<Column field="december" header="December" />
-					<Column field="time" header="Time" />
+					<Column
+						sortable={true}
+						body={this.checkBoxTemplate}
+						header="Caught"
+						style={{ textAlign: 'center' }}
+					/>
+					<Column sortable={true} field="rarity" header="Rarity" />
+					<Column sortable={true} field="price" header="Price" />
+					<Column sortable={true} field="location" header="Location" />
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="january"
+						header="Jan"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="february"
+						header="Feb"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="march"
+						header="Mar"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="april"
+						header="Apr"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="may"
+						header="May"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="june"
+						header="June"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="july"
+						header="July"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="august"
+						header="Aug"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="september"
+						header="Sept"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="october"
+						header="Oct"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="november"
+						header="Nov"
+					/>
+					<Column
+						sortable={true}
+						body={this.monthTemplate}
+						field="december"
+						header="Dec"
+					/>
+					<Column sortable={true} field="time" header="Time" />
 				</DataTable>
 				{/* {this.props.progress.map((progress) => (
 								<tr key={progress.id}>

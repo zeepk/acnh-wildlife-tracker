@@ -1,0 +1,7 @@
+.chart-container {
+	width: 95%;
+	margin: auto;
+}
+.name-column {
+	min-width: 20vw !important;
+}

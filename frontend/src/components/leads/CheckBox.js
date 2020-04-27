@@ -9,51 +9,26 @@ export class CheckBox extends Component {
 		};
 	}
 
-	// static propTypes = {
-	// 	progress: PropTypes.array.isRequired,
-	// 	getProgress: PropTypes.func.isRequired,
-	// };
+	replaceChar(origString, replaceChar, index) {
+		console.log('Original: ' + origString);
+		console.log('Index: ' + index);
+		let firstPart = origString.slice(0, index);
+		let lastPart = origString.slice(index + 1);
+		console.log('First: ' + firstPart);
+		console.log('Last: ' + lastPart);
 
-	// componentDidMount() {
-	// 	this.props.getProgress();
-	// 	if (typeof Storage !== 'undefined') {
-	// 		if (!window.localStorage.getItem('bugs')) {
-	// 			console.log('No local storage found, creating...');
-	// 			window.localStorage.setItem(
-	// 				'bugs',
-	// 				'00000000000000000000000000000000000000000000000000000000000000000000000000000000'
-	// 			);
-	// 			window.localStorage.setItem(
-	// 				'fish',
-	// 				'00000000000000000000000000000000000000000000000000000000000000000000000000000000'
-	// 			);
-	// 			window.localStorage.setItem(
-	// 				'art',
-	// 				'00000000000000000000000000000000000000000000000000000000000000000000000000000000'
-	// 			);
-	// 		}
-	// 	}
-	// }
-	is_checked = () => {
-		if (window.localStorage.getItem('bugs')[this.props.row_id] == '1') {
-			return true;
-		} else {
-			return false;
-		}
-	};
-
-	replaceAt = (s, n, t) => {
-		return s.substring(0, n) + t + s.substring(n + 1);
-	};
+		let newString = firstPart + replaceChar + lastPart;
+		console.log(newString);
+		return newString;
+	}
 
 	check_func = (checked) => {
-		console.log(checked);
-		console.log(window.localStorage.getItem('bugs')[this.props.row_id]);
+		// console.log(checked);
+		// console.log(window.localStorage.getItem('bugs')[this.props.row_id]);
 		let local_string = window.localStorage.getItem('bugs');
 		if (checked) {
-			// local_string[this.props.row_id] = '1';
 			console.log(local_string);
-			local_string = this.replaceAt(local_string, this.props.row_id, '1');
+			local_string = this.replaceChar(local_string, '1', this.props.row_id);
 			console.log(local_string);
 			window.localStorage.setItem('bugs', local_string);
 			this.setState({
@@ -61,7 +36,7 @@ export class CheckBox extends Component {
 			});
 		} else {
 			console.log(local_string);
-			local_string = this.replaceAt(local_string, this.props.row_id, '0');
+			local_string = this.replaceChar(local_string, '0', this.props.row_id);
 			console.log(local_string);
 			window.localStorage.setItem('bugs', local_string);
 			this.setState({
@@ -71,7 +46,7 @@ export class CheckBox extends Component {
 	};
 
 	render() {
-		console.log(window.localStorage.getItem('bugs')[this.props.row_id]);
+		// console.log(window.localStorage.getItem('bugs')[this.props.row_id]);
 		return (
 			<div>
 				<Checkbox
