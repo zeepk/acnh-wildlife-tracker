@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { getProgress } from '../../actions/progress';
 import { DataTable, Column } from 'primereact/datatable';
 import { bugs } from './bugs.json';
-import { CheckBox } from './CheckBox';
+import { Checkbox } from 'primereact/checkbox';
 import './Progress.css';
 
 export class Progress extends Component {
@@ -62,14 +62,42 @@ export class Progress extends Component {
 		}
 	}
 
-	checkBoxTemplate(rowData, column) {
-		// console.log(rowData.id);
-		return (
-			<div>
-				<CheckBox row_id={rowData.id} />
-			</div>
-		);
+	replaceChar(origString, replaceChar, index) {
+		console.log('Original: ' + origString);
+		console.log('Index: ' + index);
+		let firstPart = origString.slice(0, index);
+		let lastPart = origString.slice(index + 1);
+		console.log('First: ' + firstPart);
+		console.log('Last: ' + lastPart);
+
+		let newString = firstPart + replaceChar + lastPart;
+		console.log(newString);
+		return newString;
 	}
+
+	check_func = (checked, id) => {
+		// console.log(checked);
+		// console.log(window.localStorage.getItem('bugs')[this.props.row_id]);
+		let local_string = window.localStorage.getItem('bugs');
+		if (checked) {
+			console.log(local_string);
+			local_string = this.replaceChar(local_string, '1', id);
+			console.log(local_string);
+			window.localStorage.setItem('bugs', local_string);
+			this.setState({
+				checked: true,
+			});
+		} else {
+			console.log(local_string);
+			local_string = this.replaceChar(local_string, '0', id);
+			console.log(local_string);
+			window.localStorage.setItem('bugs', local_string);
+			this.setState({
+				checked: false,
+			});
+		}
+	};
+
 	monthTemplate(rowData, column) {
 		// console.log(rowData[column.field]);
 		if (rowData[column.field] == '1') {
@@ -88,6 +116,17 @@ export class Progress extends Component {
 	render() {
 		// console.log('PROGRESS');
 		// console.log(this.props.progress);
+		const checkBoxTemplate = (rowData, column) => {
+			// console.log(rowData.id);
+			return (
+				<div>
+					<Checkbox
+						onChange={(e) => this.check_func(e.checked, rowData.id)}
+						checked={window.localStorage.getItem('bugs')[rowData.id] == '1'}
+					></Checkbox>
+				</div>
+			);
+		};
 		return (
 			<div className="chart-container">
 				{/* <h2>Progress</h2> */}
@@ -100,7 +139,7 @@ export class Progress extends Component {
 					/>
 					<Column
 						sortable={true}
-						body={this.checkBoxTemplate}
+						body={checkBoxTemplate}
 						header="Caught"
 						style={{ textAlign: 'center' }}
 					/>
