@@ -6,6 +6,14 @@ import { DataTable, Column } from 'primereact/datatable';
 import { bugs } from './bugs.json';
 import { Checkbox } from 'primereact/checkbox';
 import './Progress.css';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+import MaterialTable from 'material-table';
 
 export class Progress extends Component {
 	constructor(props) {
@@ -116,110 +124,78 @@ export class Progress extends Component {
 	render() {
 		// console.log('PROGRESS');
 		// console.log(this.props.progress);
-		const checkBoxTemplate = (rowData, column) => {
+		const checkBoxTemplate = (rowData) => {
 			// console.log(rowData.id);
 			return (
-				<div>
-					<Checkbox
-						onChange={(e) => this.check_func(e.checked, rowData.id)}
-						checked={window.localStorage.getItem('bugs')[rowData.id] == '1'}
-					></Checkbox>
-				</div>
+				<div>hey</div>
+				// <div>
+				// 	<Checkbox
+				// 		onChange={(e) => this.check_func(e.checked, rowData.id)}
+				// 		checked={window.localStorage.getItem('bugs')[rowData.id] == '1'}
+				// 	></Checkbox>
+				// </div>
 			);
 		};
 		return (
 			<div className="chart-container">
-				{/* <h2>Progress</h2> */}
-				<DataTable value={bugs}>
-					<Column
-						sortable={true}
-						field="name"
-						header="Name"
-						className="name-column"
-					/>
-					<Column
-						sortable={true}
-						body={checkBoxTemplate}
-						header="Caught"
-						style={{ textAlign: 'center' }}
-					/>
-					<Column sortable={true} field="rarity" header="Rarity" />
-					<Column sortable={true} field="price" header="Price" />
-					<Column sortable={true} field="location" header="Location" />
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="january"
-						header="Jan"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="february"
-						header="Feb"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="march"
-						header="Mar"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="april"
-						header="Apr"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="may"
-						header="May"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="june"
-						header="June"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="july"
-						header="July"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="august"
-						header="Aug"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="september"
-						header="Sept"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="october"
-						header="Oct"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="november"
-						header="Nov"
-					/>
-					<Column
-						sortable={true}
-						body={this.monthTemplate}
-						field="december"
-						header="Dec"
-					/>
-					<Column sortable={true} field="time" header="Time" />
-				</DataTable>
+				<MaterialTable
+					title="Wildlife"
+					options={{
+						search: false,
+						exportButton: false,
+						filtering: false,
+						grouping: false,
+						selection: false,
+						sorting: false,
+						paging: false,
+					}}
+					columns={[
+						{
+							field: 'caught',
+							title: 'Caught',
+							render: (rowData) => (
+								<Checkbox
+									onChange={(e) => this.check_func(e.checked, rowData.id)}
+									checked={
+										window.localStorage.getItem('bugs')[rowData.id] == '1'
+									}
+								></Checkbox>
+							),
+						},
+						{ field: 'name', title: 'Name' },
+						{ field: 'rarity', title: 'Rarity' },
+						{ field: 'price', title: 'Price' },
+						{ field: 'location', title: 'Location' },
+					]}
+					data={bugs}
+				/>
+				{/* <TableContainer component={Paper}>
+					<Table aria-label="simple table">
+						<TableHead>
+							<TableRow>
+								<TableCell>Name</TableCell>
+								<TableCell align="right">Rarity</TableCell>
+								<TableCell align="right">Price</TableCell>
+								<TableCell align="right">Location</TableCell>
+								<TableCell align="right">Caught</TableCell>
+							</TableRow>
+						</TableHead>
+						<TableBody>
+							{bugs.map((bug) => (
+								<TableRow key={bug.id}>
+									<TableCell component="th" scope="row">
+										{bug.name}
+									</TableCell>
+									<TableCell align="right">{bug.rarity}</TableCell>
+									<TableCell align="right">{bug.price}</TableCell>
+									<TableCell align="right">{bug.location}</TableCell>
+									<TableCell align="right">{checkBoxTemplate}</TableCell>
+								</TableRow>
+							))}
+						</TableBody>
+					</Table>
+				</TableContainer> */}
+
 				{/* {this.props.progress.map((progress) => (
 								<tr key={progress.id}>
 									<td>{progress.id}</td>
